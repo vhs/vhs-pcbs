@@ -24638,19 +24638,19 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <label x="208.28" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ROW_DATA" class="0">
+<net name="COLUMN_DATA" class="0">
 <segment>
 <wire x1="205.74" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
 <label x="208.28" y="119.38" size="1.778" layer="95"/>
 <pinref part="IC2" gate="1" pin="PD6(AIN0/OC0A/PCINT22)"/>
 </segment>
 <segment>
-<label x="342.9" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="342.9" y="48.26" size="1.778" layer="95" rot="R90"/>
 <wire x1="342.9" y1="55.88" x2="342.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IO38"/>
 </segment>
 </net>
-<net name="ROW_CLK" class="0">
+<net name="COLUMN_CLK" class="0">
 <segment>
 <wire x1="205.74" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
 <label x="208.28" y="121.92" size="1.778" layer="95"/>
@@ -24658,11 +24658,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </segment>
 <segment>
 <wire x1="345.44" y1="83.82" x2="345.44" y2="55.88" width="0.1524" layer="91"/>
-<label x="345.44" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="345.44" y="48.26" size="1.778" layer="95" rot="R90"/>
 <pinref part="IC1" gate="G$1" pin="IO40/CLK2"/>
 </segment>
 </net>
-<net name="COLUMN0" class="0">
+<net name="ROW_ENABLE_FROM_CPU" class="0">
 <segment>
 <pinref part="IC2" gate="1" pin="PD7(AIN1/PCINT23)"/>
 <wire x1="223.52" y1="114.3" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
@@ -24673,10 +24673,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IO37"/>
 <wire x1="337.82" y1="45.72" x2="340.36" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="48.26" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
-<label x="340.36" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="340.36" y="48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="COLUMN1" class="0">
+<net name="GREEN_ROW_FROM_CPU_DATA" class="0">
 <segment>
 <pinref part="IC2" gate="1" pin="PB0(ICP1/CLKO/PCINT0)"/>
 <wire x1="223.52" y1="109.22" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
@@ -24687,10 +24687,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IO36"/>
 <wire x1="335.28" y1="45.72" x2="337.82" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="48.26" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
-<label x="337.82" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="337.82" y="48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="COLUMN2" class="0">
+<net name="RED_ROW_FROM_CPU_DATA" class="0">
 <segment>
 <pinref part="IC2" gate="1" pin="PB1(OC1A/PCINT1)"/>
 <wire x1="223.52" y1="106.68" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
@@ -24701,10 +24701,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IO35"/>
 <wire x1="332.74" y1="45.72" x2="335.28" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="48.26" x2="335.28" y2="83.82" width="0.1524" layer="91"/>
-<label x="335.28" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="335.28" y="48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="COLUMN3" class="0">
+<net name="ROW_FROM_CPU_CLK" class="0">
 <segment>
 <pinref part="IC2" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
 <wire x1="223.52" y1="104.14" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
@@ -24715,7 +24715,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IO34"/>
 <wire x1="330.2" y1="45.72" x2="332.74" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="48.26" x2="332.74" y2="83.82" width="0.1524" layer="91"/>
-<label x="332.74" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="332.74" y="48.26" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="BUTTON0" class="0">

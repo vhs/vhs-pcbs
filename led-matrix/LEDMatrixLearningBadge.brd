@@ -5097,7 +5097,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.8128" y1="21.6968" x2="19.9384" y2="23.5712" width="0.2032" layer="1"/>
 <wire x1="19.9384" y1="23.5712" x2="19.9136" y2="23.5712" width="0.2032" layer="1"/>
 </signal>
-<signal name="ROW_DATA">
+<signal name="COLUMN_DATA">
 <contactref element="IC1" pad="38"/>
 <contactref element="IC2" pad="10"/>
 <via x="33.528" y="14.0208" extent="1-16" drill="0.4064" diameter="0.4064"/>
@@ -5112,7 +5112,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="32.45" y1="18.4468" x2="32.45" y2="15.0988" width="0.2032" layer="16"/>
 <wire x1="32.45" y1="15.0988" x2="33.528" y2="14.0208" width="0.2032" layer="16"/>
 </signal>
-<signal name="ROW_CLK">
+<signal name="COLUMN_CLK">
 <contactref element="IC1" pad="40"/>
 <contactref element="IC2" pad="9"/>
 <via x="34.544" y="14.4272" extent="1-16" drill="0.4064" diameter="0.4064"/>
@@ -5129,7 +5129,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="32.95" y1="18.4468" x2="32.95" y2="16.0212" width="0.2032" layer="16"/>
 <wire x1="32.95" y1="16.0212" x2="34.544" y2="14.4272" width="0.2032" layer="16"/>
 </signal>
-<signal name="COLUMN0">
+<signal name="ROW_ENABLE_FROM_CPU">
 <contactref element="IC2" pad="11"/>
 <via x="32.512" y="13.6144" extent="1-16" drill="0.4064" diameter="0.4064"/>
 <wire x1="32.512" y1="13.6144" x2="32.9184" y2="13.208" width="0.2032" layer="1"/>
@@ -5144,7 +5144,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31.95" y1="18.4468" x2="31.95" y2="14.1764" width="0.2032" layer="16"/>
 <wire x1="31.95" y1="14.1764" x2="32.512" y2="13.6144" width="0.2032" layer="16"/>
 </signal>
-<signal name="COLUMN1">
+<signal name="GREEN_ROW_FROM_CPU_DATA">
 <contactref element="IC2" pad="12"/>
 <via x="31.496" y="13.208" extent="1-16" drill="0.4064" diameter="0.4064"/>
 <wire x1="31.496" y1="13.208" x2="31.9024" y2="12.8016" width="0.2032" layer="1"/>
@@ -5160,7 +5160,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31.45" y1="18.4468" x2="31.45" y2="13.254" width="0.2032" layer="16"/>
 <wire x1="31.45" y1="13.254" x2="31.496" y2="13.208" width="0.2032" layer="16"/>
 </signal>
-<signal name="COLUMN2">
+<signal name="RED_ROW_FROM_CPU_DATA">
 <contactref element="IC2" pad="13"/>
 <via x="30.48" y="12.8016" extent="1-16" drill="0.4064" diameter="0.4064"/>
 <wire x1="30.48" y1="12.8016" x2="30.8864" y2="12.3952" width="0.2032" layer="1"/>
@@ -5177,7 +5177,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.95" y1="13.8812" x2="30.48" y2="13.4112" width="0.2032" layer="16"/>
 <wire x1="30.48" y1="13.4112" x2="30.48" y2="12.8016" width="0.2032" layer="16"/>
 </signal>
-<signal name="COLUMN3">
+<signal name="ROW_FROM_CPU_CLK">
 <contactref element="IC2" pad="14"/>
 <via x="29.464" y="12.3952" extent="1-16" drill="0.4064" diameter="0.4064"/>
 <wire x1="29.464" y1="12.3952" x2="29.8704" y2="11.9888" width="0.2032" layer="1"/>
