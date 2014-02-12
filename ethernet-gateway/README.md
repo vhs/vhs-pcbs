@@ -1,24 +1,14 @@
+Internet of things board (aka Ethernet Gateway)
 
-http://kehribar.me/hardware/ethernetGateway/
+derived from http://kehribar.me/hardware/ethernetGateway/
 
-Board mods
+Board mods (rev 0.3 PCB)
 
 
 - cut power trace on underside, wire to header if desired
-
-
-
-
-
-
 - cut trace to CTS and rewire to RTS
 
-
-
-
-
 Bootloader
-
 
 Build optiboot for 8MHz and 57600 baud
 make MCU_TARGET=atmega328p AVR_FREQ=8000000L TIMEOUT_MS=12000 BAUD_RATE=57600

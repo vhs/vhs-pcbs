@@ -12923,7 +12923,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X10" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2k32"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="6k8"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="2k32"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="2k32"/>
@@ -12968,7 +12968,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -13077,7 +13076,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R14" gate="G$1" x="134.62" y="-25.4" rot="R270"/>
 <instance part="R15" gate="G$1" x="142.24" y="-25.4" rot="R270"/>
 <instance part="C18" gate="G$1" x="139.7" y="-43.18" rot="R270"/>
-<instance part="R16" gate="G$1" x="127" y="-25.4" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13530,8 +13528,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="134.62" y1="-20.32" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
 <label x="137.16" y="-15.24" size="1.778" layer="95"/>
 <junction x="134.62" y="-20.32"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="127" y1="-20.32" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LEDA" class="0">
@@ -14060,12 +14056,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="-38.1" x2="134.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="127" y1="-30.48" x2="127" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="IC" pin="!RTS"/>
-<wire x1="127" y1="-38.1" x2="134.62" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-38.1" x2="127" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="127" y="-38.1"/>
+<wire x1="124.46" y1="-38.1" x2="134.62" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
