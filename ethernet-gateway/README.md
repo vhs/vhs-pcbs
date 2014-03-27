@@ -9,7 +9,7 @@
 
 ### Bootloader
 
-Build optiboot for 8MHz and 57600 baud
+Build optiboot for 8MHz and 57600 baud  (source at https://code.google.com/p/optiboot/)
 ```
 make MCU_TARGET=atmega328p AVR_FREQ=8000000L TIMEOUT_MS=12000 BAUD_RATE=57600
 ```
