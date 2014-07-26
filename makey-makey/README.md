@@ -1,3 +1,11 @@
+MaKeyMaKey was a very successful Kickstarter from some smart guys at MIT ([http://makeymakey.com](http://makeymakey.com)).   It uses capacitive touch to stimulate USB HID devices using a Arduino Leonardo compatible programming environment.
+
+We ran a workshop at VHS in Vancouver Canada in July 2014 building these using PCBs from Dirty PCBs.  The design is open hardware, the Eagle files, bootloader and sketches can all be found on github ([https://github.com/sparkfun/makeymakey](https://github.com/sparkfun/makeymakey)).
+
+I've contributed a layout photo, parts list and basic instructions at [https://github.com/TomKeddie/vhs-pcbs/tree/master/makey-makey](https://github.com/TomKeddie/vhs-pcbs/tree/master/makey-makey).
+
+Parts List
+
 |Qty|Value|Device|Colour|Parts|Description|
 | --- | ----- | ------ | ----- | ----------- | ----------- | |
 |3|0.1uF|CAP0603-CAP|Blue|C1, C5, C8|Capacitor|
