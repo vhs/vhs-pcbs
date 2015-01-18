@@ -35,6 +35,8 @@ ordering the actual parts and verifying fit.
 | 1 | 47uF | CPOL-EUD/7343-31W | C7 | 47uF 2917 Size "D" Tantalum Capacitor |
 | 4 | 24R | R-EU_M0805 | R1, R2, R3, R4 | 24R 0805 5% resistor |
 | 1 | 10K | R-EU_M0805 | R5 | 10k 0805 5% resistor |
+| 2 | 1K | R-EU_M0805 | R6, R7 | 1k 0805 5% resistor (rev 1.2 and later) |
+| 2 | GREEN | LED-0805 | LED1, LED2 | Green 0805 LED (rev 1.2 and later) |
 | 1 | ADUM3160BRWZ | SO16W | IC1 | Analog Devices ADUM3160BRWZ | 
 | 1 | CON-USB-F-2PB | CON-USB-F-2PB | USBOUT | USB SMD Female connector with 2 body pins | 
 | 2 | CON-USB-F-MINI-B | CONN_USB_MINI-B | POWER, USBIN | USB Mini Female connector | 
