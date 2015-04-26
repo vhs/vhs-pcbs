@@ -1,0 +1,10 @@
+Row {
+    Col {
+	circle
+	circle
+    }
+    Col {
+	circle
+	circle
+    }
+}
