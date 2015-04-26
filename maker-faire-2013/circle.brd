@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -131,7 +131,7 @@ holder goes
 on this side!</text>
 <circle x="21.59" y="20.955" radius="22.86" width="0.4064" layer="20"/>
 <text x="20.955" y="5.08" size="2.794" layer="25" font="vector" ratio="10" rot="SR180" align="center">hackspace.ca</text>
-<text x="20.955" y="0.3175" size="2.794" layer="26" font="vector" ratio="10" rot="SMR180" align="center">v2.0</text>
+<text x="20.955" y="0.3175" size="2.794" layer="26" font="vector" ratio="10" rot="SMR180" align="center">v2.2</text>
 </plain>
 <libraries>
 <library name="circle">
@@ -178,8 +178,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
 <wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" shape="long" rot="R90" stop="no"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" shape="long" rot="R90" stop="no"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" shape="long" rot="R90"/>
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <polygon width="0.127" layer="30">
@@ -2801,12 +2801,12 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <text x="0" y="-0.1" size="0.04" layer="200" font="vector">/Users/tom/Downloads/VHSlogo.bmp</text>
 </package>
 <package name="0S102011MS2QN1">
-<pad name="CASE2" x="8.2" y="0" drill="1.65" diameter="2.032" shape="long" rot="R90"/>
+<pad name="CASE2" x="8.2" y="0" drill="1.3" diameter="1.778" shape="long" rot="R90"/>
 <pad name="1" x="2.1" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="2" x="4.1" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="3" x="6.1" y="0" drill="0.9" shape="long" rot="R90"/>
 <text x="1.27" y="-3.175" size="1.27" layer="21">&gt;NAME</text>
-<pad name="CASE1" x="0" y="0" drill="1.65" diameter="2.032" shape="long" rot="R90"/>
+<pad name="CASE1" x="0" y="0" drill="1.3" diameter="1.778" shape="long" rot="R90"/>
 </package>
 </packages>
 </library>
@@ -2819,20 +2819,32 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1">
-<description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Min width/Spacing: 5/5mil
-&lt;br&gt;Min diameter of finished hole 12mil</description>
+<designrules name="iteadstudio_drc">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
+</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -2841,7 +2853,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
+<param name="msWidth" value="6mil"/>
 <param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -2877,7 +2889,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="25mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3133,25 +3145,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <via x="21.59" y="41.5925" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="1.5875" y="29.5275" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="10.795" y="29.5275" extent="1-16" drill="0.6" shape="octagon"/>
-</signal>
-<signal name="CASE1">
-<contactref element="SW1" pad="2"/>
-<contactref element="BATTERY" pad="1"/>
-<contactref element="SW1" pad="1"/>
-<contactref element="SW1" pad="CASE1"/>
-<wire x1="21.59" y1="36.51" x2="24.1275" y2="33.9725" width="1.27" layer="1"/>
-<wire x1="24.1275" y1="33.9725" x2="24.13" y2="33.9725" width="1.27" layer="1"/>
-<wire x1="26.035" y1="10.795" x2="25.781" y2="10.795" width="1.27" layer="1"/>
-<wire x1="25.781" y1="10.795" x2="23.681" y2="10.795" width="1.27" layer="1"/>
-<wire x1="21.681" y1="10.795" x2="23.681" y2="10.795" width="1.27" layer="1"/>
-<wire x1="24.1275" y1="33.9725" x2="24.1275" y2="32.3875" width="1.27" layer="1"/>
-<wire x1="24.1275" y1="32.3875" x2="28.575" y2="27.94" width="1.27" layer="1"/>
-<via x="28.575" y="27.94" extent="1-16" drill="0.6" shape="octagon"/>
-<wire x1="28.575" y1="27.94" x2="28.575" y2="26.3525" width="1.27" layer="16"/>
-<wire x1="28.575" y1="26.3525" x2="26.035" y2="23.8125" width="1.27" layer="16"/>
-<wire x1="25.7175" y1="10.8585" x2="25.781" y2="10.795" width="1.27" layer="16"/>
-<wire x1="26.035" y1="23.8125" x2="26.035" y2="11.049" width="1.27" layer="16"/>
-<wire x1="26.035" y1="11.049" x2="25.781" y2="10.795" width="1.27" layer="16"/>
+<via x="24.765" y="28.8925" extent="1-16" drill="0.6" shape="octagon"/>
 </signal>
 <signal name="CASE2">
 <contactref element="SW1" pad="CASE2"/>
@@ -3181,6 +3175,26 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="25.0825" y1="31.4325" x2="29.21" y2="35.56" width="1.27" layer="16"/>
 <wire x1="33.581278125" y1="33.692646875" x2="31.077353125" y2="33.692646875" width="1.27" layer="1"/>
 <wire x1="31.077353125" y1="33.692646875" x2="29.21" y2="35.56" width="1.27" layer="1"/>
+<contactref element="SW1" pad="CASE1"/>
+</signal>
+<signal name="N$1">
+<contactref element="SW1" pad="2"/>
+<contactref element="BATTERY" pad="1"/>
+<wire x1="21.681" y1="10.795" x2="21.681" y2="11.521" width="1.016" layer="16"/>
+<wire x1="21.681" y1="11.521" x2="23.01875" y2="12.85875" width="0.762" layer="16"/>
+<wire x1="23.01875" y1="12.85875" x2="23.495" y2="12.85875" width="0.762" layer="16"/>
+<wire x1="23.495" y1="12.85875" x2="25.4" y2="14.76375" width="0.762" layer="16"/>
+<wire x1="25.4" y1="14.76375" x2="25.87625" y2="15.24" width="1.016" layer="16"/>
+<wire x1="25.87625" y1="15.24" x2="25.87625" y2="23.65375" width="1.016" layer="16"/>
+<wire x1="25.87625" y1="23.65375" x2="28.73375" y2="26.51125" width="1.016" layer="16"/>
+<wire x1="28.73375" y1="26.51125" x2="28.73375" y2="28.09875" width="1.016" layer="16"/>
+<via x="28.73375" y="28.09875" extent="1-16" drill="0.6" shape="octagon"/>
+<wire x1="28.73375" y1="28.09875" x2="27.78125" y2="28.09875" width="1.016" layer="1"/>
+<wire x1="27.78125" y1="28.09875" x2="21.59" y2="34.29" width="1.016" layer="1"/>
+<wire x1="21.59" y1="34.29" x2="21.59" y2="36.51" width="1.016" layer="1"/>
+</signal>
+<signal name="1">
+<contactref element="SW1" pad="1"/>
 </signal>
 </signals>
 </board>
