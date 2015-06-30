@@ -24,9 +24,8 @@ All the USB connectors were originally purchased on ebay.
 
 You may be able to get a sample of the ADUM3160BRWZ from Analog Devices.
 
-Ths parts list is below, if someone can supply the part numbers for a common
-supplier that would be appreciated.  I don't want to suggest them without
-ordering the actual parts and verifying fit.
+The parts list is below, thanks to Mike for supplying the connector part numbers, the rest should be fairly easy to determine.
+
 
 | Qty | Value | Device | Parts | Description | Digikey | 
 | --- | ----- | ------ | ----- | ----------- | ------- |
