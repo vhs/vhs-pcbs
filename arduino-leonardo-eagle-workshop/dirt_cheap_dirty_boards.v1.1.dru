@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DirtyPCBs.com</title>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="http://dirtypcbs.com/assets/js/jquery-2.1.1.min.js"></script> 
+	<!-- Bootstrap -->
+	<link href="http://dirtypcbs.com/assets/css/bootstrap3.min.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	<link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/blog/desktop.css" />
+	<link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/header-footer.css" />
+	<link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/forum/forum.css" />
+
+	    
+	<link rel="stylesheet" type="text/css" href="http://dirtypcbs.com/assets/css/font-awesome.min.css" media="screen" />
+	<link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/bootstrap-wysihtml5.css" />
+
+	<link href="http://dirtypcbs.com/themes/dangercore/css/jquery.tagit.css" rel="stylesheet" type="text/css">
+    <link href="http://dirtypcbs.com/themes/dangercore/css/tagit.ui-zendesk.css" rel="stylesheet" type="text/css">
+    
+    <link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/global.css" />
+     <link type="text/css" rel="stylesheet" href="http://dirtypcbs.com/themes/dangercore/css/style.css" />
+	
+	<style type="text/css" media="screen">
+        .btn.jumbo {
+            font-size: 20px;
+            font-weight: normal;
+            padding: 14px 24px;
+            margin-right: 10px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+    </style>
+	
+	<script>
+		var js_siteurl = 'http://dirtypcbs.com/';
+		var js_baseurl='http://dirtypcbs.com/';
+		var uri = 'files/pcbs/dirt_cheap_dirty_boards.v1.1.dru';
+	</script>
+</head>
+
+<body>
+<div class="header">
+  <div class="bg">
+    <div class="inner">
+      <div class="logo">
+      <a href="">
+      <img src="http://dirtypcbs.com/themes/dangercore/images/logo02.png" width="102" height="89" class="logo">
+      <img src="http://dirtypcbs.com/themes/dangercore/images/dangerous-prototypes.png" width="378" height="73" class="slogan">
+      </a></div>
+      <div class="adv"><a href="http://dirtypcbs.com/banner/redirect/32"><img src="http://dirtypcbs.com/assets/images/announce/9a251-15.png"/></a></div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="nav-wrap">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      
+    </div>
+    <div class="navbar-collapse collapse" id="navbar1">
+      <ul class="nav navbar-nav">
+		 <li class="item01"><a href="http://dirtypcbs.com/store">Shop</a></li>
+		  <li class="item02"><a href="http://dirtypcbs.com/store/pcbs">PCBs</a></li>
+		  <li class="item03"><a href="http://dirtypcbs.com/store/print3d">3D Prints</a></li>
+		  <li class="item04"><a href="http://dirtypcbs.com/store/lasercut">Laser Cuts</a></li>
+		  <li class="item05"><a href="http://dirtypcbs.com/store/designer">Shares</a></li>		  
+		  <li class="item06"><a href="http://dangerousprototypes.com/forum/">Forum</a></li>
+		  <li class="item07"><a href="http://dirtypcbs.com/about">About</a></li>
+		  <li class="item08"><a href="http://dirtypcbs.com/contact">Contact</a></li>
+      </ul>
+
+      <div class="floatright">
+      	   <form action="" class="search">
+	        	<div class="search-inner"><input type="text" class="terms"><input type="submit" value=" " class="submit"></div>
+	        </form>
+
+	     <div class="social"> <a href="http://dangerousprototypes.com/feed"><img src="http://dirtypcbs.com/themes/dangercore/images/rss.jpg" alt="" width="24" height="23" /></a> <a href="http://dangerousprototypes.com/forum/smartfeed_url.php"><img src="http://dirtypcbs.com/themes/dangercore/images/icon01.jpg" alt="" width="23" height="23" /></a> <a href="http://dirtypcbs.com/subscribe"><img src="http://dirtypcbs.com/themes/dangercore/images/email.jpg" alt="" width="28" height="20" /></a> <a href="http://youtube.com/"><img src="http://dirtypcbs.com/themes/dangercore/images/youtube.jpg" alt="" width="20" height="23" /></a> <a href="http://twitter.com/#!/dangerousproto"><img src="http://dirtypcbs.com/themes/dangercore/images/twitter.jpg" alt="" width="23" height="17" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/googleplus.jpg" alt="" width="24" height="23" /></a> <a href="http://www.facebook.com/pages/Dangerous-Prototypes/127701397281222"><img src="http://dirtypcbs.com/themes/dangercore/images/facebook.jpg" alt="" width="24" height="23" /></a> </div>
+      </div>
+     
+    </div>
+  </div>
+</nav>
+
+<div class="wrap"><div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>(404) Page not found</h1>
+            <p>Apologies, but the page you requested could not be found</p>
+        </div>
+    </div>
+
+</div></div>
+<div class="footer">
+  <div class="cols1 clearfix">
+    <div class="col1"><img src="http://dirtypcbs.com/themes/dangercore/images/icon03.gif" alt="" width="31" height="30" /><img src="http://dirtypcbs.com/themes/dangercore/images/icon04.gif" alt="" width="31" height="30" /><img src="http://dirtypcbs.com/themes/dangercore/images/icon05.gif" alt="" width="31" height="30" /></div>
+    <div class="col2">&copy; 2017 Where Labs, LLC.</div>
+    <div class="col3">CC BY-SA unless otherwise noted.</div>
+    <div class="col4"><a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/rss2.gif" alt="" width="24" height="23" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/icon02.gif" alt="" width="24" height="23" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/email2.gif" alt="" width="27" height="20" /></a><a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/youtube2.gif" alt="" width="20" height="23" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/twitter2.gif" alt="" width="23" height="17" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/googleplus2.gif" alt="" width="24" height="23" /></a> <a href=""><img src="http://dirtypcbs.com/themes/dangercore/images/facebook2.gif" alt="" width="23" height="23" /></a></div>
+  </div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="http://dirtypcbs.com/assets/js/bootstrap3.min.js"></script> 
+<script src="http://dirtypcbs.com/assets/js/common.js"></script> 
+<script type="text/javascript" src="http://dirtypcbs.com/themes/dangercore/js/global.js" ></script>
+<script src="http://dirtypcbs.com/themes/dangercore/js/wysihtml5-0.3.0.js"></script> 
+
+<script src="http://dirtypcbs.com/themes/dangercore/js/bootstrap-wysihtml5.js"></script> 
+
+
+</body>
+</html>
